@@ -1,2 +1,2 @@
-# SQLi_auth_bypass
+# SQLi Auth Bypass
 Application to test you SQLi auth bypass skills
