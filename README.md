@@ -13,6 +13,20 @@ cd SQLi_Auth_Bypass
 pip install flask
 python3 main.py
 ```
+or if you prefer to run app in docker:
+```bash
+git clone https://github.com/cherepawwka/SQLi_Auth_Bypass.git
+cd SQLi_Auth_Bypass
+docker build . -t sqliauthbypass
+docker run -d -p 5000:5000 sqliauthbypass:latest
+```
+Now your app is running at http://127.0.0.1:5000/
+
+To stop container
+```bash
+docker ps -a  # get ID
+docker stop ID
+```
 
 Enjoy!
 ---
