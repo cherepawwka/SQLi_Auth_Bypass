@@ -8,6 +8,7 @@ WORKDIR /app
 COPY ./main.py /app/app.py
 COPY ./templates /app/templates
 COPY ./static /app/static
+COPY ./authbypass.db /app/authbypass.db
 
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py" ]
